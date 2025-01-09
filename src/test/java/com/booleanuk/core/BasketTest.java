@@ -18,7 +18,7 @@ public class BasketTest {
         Basket basket = new Basket();
         basket.items.put("Apple", 1);
         basket.items.put("Banana", 20);
-        basket.items.put("Testitem2", 1);
+        basket.items.put("TestItem2", 1);
         Assertions.assertFalse(basket.add("TestItem2", 1));
     }
 
